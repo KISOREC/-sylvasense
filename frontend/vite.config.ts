@@ -5,6 +5,9 @@ import { fileURLToPath, URL } from "node:url";
 export default defineConfig({
   plugins: [react()],
   envDir: "..",
+  server: {
+    allowedHosts: ["sb-3ud2edvnx8ls.vercel.run"],
+  },
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
