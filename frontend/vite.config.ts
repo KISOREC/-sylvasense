@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   envDir: "..",
   server: {
-    allowedHosts: ["sb-3ud2edvnx8ls.vercel.run"],
+    allowedHosts: true,
   },
   resolve: {
     alias: {
