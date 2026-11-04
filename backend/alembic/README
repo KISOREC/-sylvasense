@@ -1,0 +1,2 @@
+Generate revisions with `alembic revision --autogenerate -m "describe change"` and apply with `alembic upgrade head`.
+Review every generated migration before applying it. Enable PostGIS extensions through a reviewed Alembic migration when spatial tables are introduced.

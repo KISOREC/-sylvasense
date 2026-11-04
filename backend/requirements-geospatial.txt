@@ -1,0 +1,6 @@
+# Optional geospatial processing environment; native GDAL must be installed first.
+-r requirements.txt
+GDAL>=3.8,<4.0
+rasterio>=1.4,<2.0
+geopandas>=1.0,<2.0
+shapely>=2.0,<3.0
